@@ -36,7 +36,7 @@ function Header() {
             <Link
               className={styles.navItem}
               activeClassName={styles.activeNavItem}
-              to="/blog"
+              to="/blogs"
             >
               Blogs
             </Link>

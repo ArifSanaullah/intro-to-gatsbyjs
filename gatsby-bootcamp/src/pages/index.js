@@ -15,7 +15,7 @@ export default function Home() {
           Need a developer? <Link to="/contact">Contact me</Link>{" "}
         </p>
         <p>
-          See all blogs <Link to="/blog">Blogs</Link>{" "}
+          See all blogs <Link to="/blogs">Blogs</Link>{" "}
         </p>
         <p>
           Find about me <Link to="/about">About me</Link>{" "}
