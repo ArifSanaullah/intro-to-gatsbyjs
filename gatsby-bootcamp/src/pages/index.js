@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <Layout>
       <div>
-        <h1>The great gatsby bootcamp</h1>
+        <h1>Hello...!</h1>
+        <h1>
+          I'm Arif Sanaullah, A full stack developer living in beautiful
+          Pakistan.
+        </h1>
         <p>
           Need a developer? <Link to="/contact">Contact me</Link>{" "}
         </p>

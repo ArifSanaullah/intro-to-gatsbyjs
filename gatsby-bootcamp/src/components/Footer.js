@@ -1,6 +1,17 @@
 import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 
 function Footer() {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          author
+        }
+      }
+    }
+  `)
+
   return (
     <footer>
       <p>
@@ -10,7 +21,7 @@ function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          Arif Sanaullah
+          {data.site.siteMetadata.author}
         </a>{" "}
         with Love{" "}
       </p>

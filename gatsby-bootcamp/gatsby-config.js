@@ -7,4 +7,8 @@
 module.exports = {
   /* Your site config here */
   plugins: ["gatsby-plugin-sass"],
+  siteMetadata: {
+    title: "Fullstack Gatsby Bootcamp",
+    author: "Arif Sanaullah"
+  },
 }
