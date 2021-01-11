@@ -33,7 +33,7 @@ function Blog() {
               fields: { slug },
             },
           }) => (
-            <li key={title}>
+            <li key={title} className={styles.blog}>
               <Link to={`/blogs/${slug}`}>
                 <h2>{title}</h2>
                 <p>{date}</p>

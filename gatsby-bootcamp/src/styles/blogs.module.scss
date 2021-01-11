@@ -1,10 +1,23 @@
 .blogs-list {
   list-style: none;
   margin: 0;
-  li {
+  margin-top: 3rem;
+  .blog {
+    background-color: #f4f4f4;
+    padding: 0.75rem;
+    &:hover {
+      background-color: #e4e4e4;
+    }
+    h2 {
+      margin-bottom: 0;
+    }
     a {
       color: #000;
       text-decoration: none;
+      p {
+        font-style: italic;
+        font-size: 0.8rem;
+      }
     }
   }
 }
